@@ -8,7 +8,7 @@
 ### Uso
 Antes que nada, descomprime todos los archivos a una carpeta (tienen que estar los dos archivos en ella)
 Luego hay que añadir esa carpeta a PATH:
-export PATH=&PATH:(Direccion absoluta de la carpeta en la que has guardado los scripts)
+- export PATH=&PATH:(Direccion absoluta de la carpeta en la que has guardado los scripts)
 
 Para ejecutar el script, simplemente haz lo siguiente:
 
