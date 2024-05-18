@@ -1,4 +1,4 @@
-# ☼ RECUR ☼
+# <span style="color:blue">☼ RECUR ☼</span>
 ## Este script de Bash te permite crear archivos o directorios de forma recursiva. Proporciona las siguientes características:
 
 ### Creación de archivos y directorios con nombres personalizados.
