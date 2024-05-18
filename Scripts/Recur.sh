@@ -55,7 +55,7 @@ crear_ficheros() {
   	  done
   	  echo "100"
 	) | dialog --gauge "Creando ficheros en $ruta..." 8 70 0
-    ../enviar_correo "$email"
+    enviar_correo "$email"
 	if dialog --yesno "¿Deseas editar alguno de los ficheros recién creados?" 8 60; then
   	  editar_ficheros "$ruta" "$nombre"
 	fi
@@ -125,7 +125,7 @@ crear_directorios() {
   	  done
   	  echo "100"
 	) | dialog --gauge "Creando directorios en $ruta..." 8 70 0
-	../enviar_correo "$email"
+	enviar_correo "$email"
 }
 definir_correo(){
     tempfile=$(mktemp)
