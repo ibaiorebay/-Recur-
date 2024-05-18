@@ -14,3 +14,6 @@ cat <<EOF > "$EMAIL_CONTENT"
 ${BODY}"
 EOF
 ssmtp "$TO" < "$EMAIL_CONTENT"
+
+
+

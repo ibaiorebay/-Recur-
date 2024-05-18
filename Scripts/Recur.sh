@@ -162,4 +162,3 @@ while true; do
    	 *) dialog --msgbox "Opción no válida. Por favor, seleccione nuevamente." 8 40 ;;
     esac
 done
-
