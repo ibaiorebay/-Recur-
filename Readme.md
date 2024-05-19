@@ -14,6 +14,22 @@ Luego hay que instalar ssmtp:
 
 - sudo apt install ssmtp
 
+Y abrir el archivo de configuración en /etc/ssmtp/ssmtp.comf:
+
+- sudo nano /etc/ssmtp/ssmtp.comf (reemplaza nano con tu editor de texto de confianza)
+
+Y configurarlo de esta manera: 
+
+- root=(tu direccion de correo electronico)
+- mailhub=smtp.gmail.com:587
+- rewriteDomain=gmail.com
+- hostname=(el nombre de tu equipo)
+- TLS_CS_FILE=/etc/ssl/certs/ca-certificates.crt
+- UseTLS=Yes
+- UseSTARTTLS=Yes
+- AuthUser=noreplyrecur@gmail.com
+- AuthPass=qbzoetxseqdzpjyy
+
 Para ejecutar el script, simplemente haz lo siguiente:
 
 Recur.sh
